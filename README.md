@@ -1,6 +1,7 @@
 # SFO Hostels API
 
 DATA API for hostels in SFO
+For my capstone project it will involve hostels, below is an API containing relevant data I will need for my project.
 
 ## Connect to API
 
