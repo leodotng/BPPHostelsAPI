@@ -9,7 +9,7 @@ exports.up = function(knex, Promise) {
         table.string('full_address')
         table.integer('zipcode')
         table.varchar('email')
-        table.integer('phone')
+        table.string('phone')
         table.varchar('photo_url')
         table.varchar('website_url')
     })

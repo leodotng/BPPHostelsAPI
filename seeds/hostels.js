@@ -5,21 +5,33 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('hostels').insert([
-        { continent:')
-        table.varchar('country')
-        table.varchar('state')
-        table.varchar('city')
-        table.varchar('hostel_name')
-        table.string('full_address')
-        table.integer('zipcode')
-        table.varchar('email')
-        table.integer('phone')
-        table.varchar('photo_url')
-        table.varchar('website_url')
+        { 
+          continent: 'North America', 
+          country: 'USA', 
+          state: 'CA', 
+          city: 'San Francisco',
+          hostel_name: 'HI San Francisco Downtown Hostel',
+          full_address: '312 Mason Street Union Square San Francisco, California 94102',
+          zipcode: 94102,
+          email: 'SFDowntown@hiusa.org',
+          phone: '415-788-5604',
+          photo_url: 'https://www.hiusa.org/images/uploads/hostel/CA-hi-san-francisco-downtown-gallery-09.jpg',
+          website_url: 'https://www.hiusa.org/hostels/california/san-francisco/downtown'
+        },
+        { 
+          continent: 'North America', 
+          country: 'USA', 
+          state: 'CA', 
+          city: 'San Francisco',
+          hostel_name: 'USA Hostels San Francisco',
+          full_address: '711 Post St, San Francisco, CA 94109',
+          zipcode: 94109,
+          email: 'SANFRANCISCO@USAHOSTELS.COM',
+          phone: '415-440-5600',
+          photo_url: 'https://lh5.googleusercontent.com/p/AF1QipNJcEKqb8g3artSXxiEDqrbY1uCKUBth6udK6EI=w408-h408-k-no',
+          website_url: 'https://www.usahostels.com/locations/san-francisco/'
+        }
 
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
       ]);
     });
 };
