@@ -1,6 +1,4 @@
-const hostels =
-
-{
+const hostels = {
         'continent': {
                 'north_america': {
                         'USA': {
@@ -17,7 +15,7 @@ const hostels =
                                                 phone: '415-788-5604'
                                                 }
                                                 misc: {
-                                                photo_url: 'https://www.hiusa.org/images/uploads/hostel/CA-hi-san-francisco-downtown-gallery-09.jpg',
+                                                photo_url: 'https://www.hiusa.org/images/uploads/hostel/CA-hi-san-francisco-downtown-gallery-09.jpg'
                                                 website_url: 'https://www.hiusa.org/hostels/california/san-francisco/downtown'
                                                 }
                                         }
