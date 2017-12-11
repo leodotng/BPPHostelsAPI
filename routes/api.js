@@ -3,7 +3,7 @@ var router = express.Router();
 var queries = require('./queries')
 
 /* GET home page. */
-router.get('/api', function(req, res, next) {
+router.get('/', function(req, res, next) {
   queries.getHostels()
   .then((hostelData) => {
     res.json(hostelData)
